@@ -1,0 +1,24 @@
+body{
+    background-image: url(IMG_20230606_114331_704.jpg);
+    background-size: contain;
+}
+.imc{
+    width: 400px;
+    height: 400px;
+    margin: 20vh auto;
+    text-align: center;
+    background-color: silver;
+    border-radius: 5px;
+    padding: 3px;
+}
+label, input{
+    width: 80%;
+    font-size: 20px;
+    margin: 2px auto;
+    text-align: center;
+}
+button{
+    margin: 5px auto;
+    width: 50%;
+    height: 5vh;
+}

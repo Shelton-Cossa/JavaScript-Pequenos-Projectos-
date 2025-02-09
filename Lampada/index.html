@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="lampada.js"></script>
+    <title>Lampada</title>
+</head>
+
+<body>
+    <header>
+        <h1>VANILLA JS</h1>
+    </header>
+    <main>
+        <div>
+            <img src="img/desligada.jpg" alt="Lampada desligada" id="lamp" onmouseover="ligar()" onmouseleave="desligar()" ondblclick="quebrar()">
+        </div>
+        <div>
+            <button id="liga" onclick="ligar()">Ligar</button>
+            <button id="desliga" onclick="desligar()">Desligar</button>
+        </div>
+    </main>
+</body>
+
+</html>
